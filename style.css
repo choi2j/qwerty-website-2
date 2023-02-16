@@ -273,13 +273,16 @@ body * {
 	padding: 1rem 5rem;
 }
 
-@media (hover: none) and (pointer: none) {
+@media only screen and (hover: none) and (pointer: coarse) {
 	.cursor {
 		display: none;
 	}
 }
 
 @media (max-width: 1400px) {
+	.cursor {
+		display: none;
+	}
 	.bigxl {
 		font-size: 8rem;
 	}
