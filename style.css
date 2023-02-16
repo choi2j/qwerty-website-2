@@ -140,7 +140,7 @@ body * {
 	height: 5rem;
 	width: 5rem;
 	box-shadow: #4e5668 4px 4px 0;
-	transition: box-shadow ease-in-out 0.2s;
+	transition: box-shadow ease-in-out 0.1s;
 }
 .key:hover {
 	box-shadow: none;
