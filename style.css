@@ -288,6 +288,13 @@ body * {
 		margin-right: 2rem;
 	}
 
+	.duction-key span{
+		display: none;
+	}
+	.duction-key::after {
+		content: '글자를 눌러보세요!';
+	}
+
 	.keyboard {
 		display: flex;
 		gap: 0.5rem;
