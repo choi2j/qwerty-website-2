@@ -243,7 +243,8 @@ body * {
 	border: #4e5668 1px solid;
 	color: #4e5668;
 	padding: 1rem 5rem;
-	transition: 0.2s;
+    border-radius: 4px;
+	transition: 0.2s ease-in-out;
 }
 .aplic-link:hover {
 	background: #4e5668;
