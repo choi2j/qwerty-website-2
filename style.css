@@ -186,6 +186,20 @@ body * {
 	border-radius: 4px;
 }
 
+.more {
+	background: none;
+	border: #4e5668 1px solid;
+	color: #4e5668;
+	padding: 1rem 5rem;
+	border-radius: 4px;
+	transition: 0.2s ease-in-out;
+}
+.more:hover {
+	background: #4e5668;
+	color: #fff;
+	padding: 1rem 5rem;
+}
+
 .portfolio {
 	display: flex;
 	flex-direction: row;
@@ -259,7 +273,7 @@ body * {
 	padding: 1rem 5rem;
 }
 
-@media (hover: none) and (pointer: coarse) {
+@media (hover: none) and (pointer: none) {
 	.cursor {
 		display: none;
 	}
