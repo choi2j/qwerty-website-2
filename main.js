@@ -6,12 +6,6 @@ document.body.addEventListener("mousemove", (evt) => {
 		x: mouseX,
 		y: mouseY,
 	});
-
-	gsap.to(".shape", {
-		x: mouseX,
-		y: mouseY,
-		stagger: -0.1,
-	});
 });
 
 window.addEventListener("keydown", (text) => {
