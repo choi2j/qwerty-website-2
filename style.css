@@ -259,11 +259,13 @@ body * {
 	padding: 1rem 5rem;
 }
 
-@media (max-width: 1400px) {
+@media (hover: none) and (pointer: coarse) {
 	.cursor {
 		display: none;
 	}
+}
 
+@media (max-width: 1400px) {
 	.bigxl {
 		font-size: 8rem;
 	}
@@ -326,10 +328,6 @@ body * {
 }
 
 @media (max-width: 1000px) {
-	.cursor {
-		display: none;
-	}
-
 	.bigxl {
 		font-size: 6rem;
 	}
@@ -385,10 +383,6 @@ body * {
 }
 
 @media (max-width: 800px) {
-	.cursor {
-		display: none;
-	}
-
 	.bigxl {
 		font-size: 5rem;
 	}
@@ -449,10 +443,6 @@ body * {
 }
 
 @media (max-width: 700px) {
-	.cursor {
-		display: none;
-	}
-
 	.bigxl {
 		font-size: 3rem;
 	}
@@ -521,10 +511,6 @@ body * {
 }
 
 @media (max-width: 350px) {
-	.cursor {
-		display: none;
-	}
-
 	.bigxl {
 		font-size: 2.5rem;
 	}
