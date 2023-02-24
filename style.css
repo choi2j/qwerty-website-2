@@ -280,9 +280,6 @@ body * {
 }
 
 @media (max-width: 1400px) {
-	.cursor {
-		display: none;
-	}
 	.bigxl {
 		font-size: 8rem;
 	}
@@ -307,11 +304,11 @@ body * {
 		margin-right: 2rem;
 	}
 
-	.duction-key span{
+	.duction-key span {
 		display: none;
 	}
 	.duction-key::after {
-		content: '글자를 눌러보세요!';
+		content: "글자를 눌러보세요!";
 	}
 
 	.keyboard {
@@ -520,7 +517,6 @@ body * {
 }
 
 @media (max-width: 500px) {
-
 	.cur {
 		height: 6rem;
 		width: 80%;
